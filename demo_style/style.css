@@ -59,7 +59,6 @@ header::after {
     height: 1px;
     content: "";
     background-color: rgb(100, 100, 100);
-    bottom: -1rem;
 }
 
 header > img {
@@ -173,4 +172,17 @@ footer > p {
 
 /* Mobile */
 
+@media all and (max-width: 425px) {
+    
+    body {
+        width: 90%;
+    }
 
+    header {
+        height: 95vh;
+    }
+
+    header > img {
+        height: 80%;
+    }
+}
