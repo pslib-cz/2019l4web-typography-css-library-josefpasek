@@ -21,10 +21,11 @@
 ## Usage
 CSS file is based on styling HTML tags. However there are few components that are initialized by class.
 Entire blog post needs to be wrapped in the **article** tag.
-**Article** tag can wrap following components: *uo/ol
-*blockquote
-*p, b, i
-*h2, h3, h4, h5, h6 (tag **h1** is part of header)
+**Article** tag can wrap following components:
+* uo/ol
+* blockquote
+* p, b, i
+* h2, h3, h4, h5, h6 (tag **h1** is part of header)
 
 ```html 
 <article>
