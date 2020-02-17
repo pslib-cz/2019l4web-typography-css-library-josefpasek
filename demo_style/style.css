@@ -84,19 +84,17 @@ header > h1 {
 
 header .info {
     position: relative;
-    display: flex;
     margin: 1rem 0;
 }
 
-header .info > img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 100%;
-    filter: brightness(25%);
-    margin: 0 20px 0 20px;
-} 
+
+header .info p {
+    font-size: .9rem;
+}
+
+header .info p > span {
+    margin-right: 5px;
+}
 
 /* Body Position */
 
@@ -163,5 +161,16 @@ blockquote {
 }
 
 /* Footer */
+
+footer {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+footer > p {
+    font-size: 1rem;
+}
+
+/* Mobile */
 
 
